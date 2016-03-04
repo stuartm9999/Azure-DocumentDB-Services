@@ -19,7 +19,16 @@ namespace DocumentDBServices.Controllers
         //    return new string[] { "value1", "value2" };
         //}
 
-        // GET: api/Document/5
+        /// <summary>
+        /// Run the query against all the Databases and all the 
+        /// Containers in those databaseas for the given service.
+        /// </summary>
+        /// <param name="endpointUrl">Service URL</param>
+        /// <param name="authorizationKey">access key</param>
+        /// <param name="query">The query to execute</param>
+        /// <returns>Documents found</returns>
+        /// <remarks>Please url encode the paramaters - in particular the key
+        /// Try the service here - http://www.url-encode-decode.com/ </remarks>
         public HttpResponseMessage Get(String endpointUrl,
             String authorizationKey,
             String query)
