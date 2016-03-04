@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentDBBusiness", "DocumentDBBusiness\DocumentDBBusiness.csproj", "{98DA8942-6EEE-45B8-99EB-9F215273D983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentDBServices", "DocumentDBServices\DocumentDBServices.csproj", "{87BD7312-9920-4122-A1DF-CF1798D5F956}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{A92B7EB7-C6A9-4BF8-80E4-0D40B8B80FA7}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{5E91C598-1615-492F-B3E7-35BDF8E30936}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\DocumentDBServices-WAWS-dev.json = PublishScripts\Configurations\DocumentDBServices-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs40
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DocumentDBBusiness\\DocumentDBBusiness.csproj
+		SccProjectName1 = DocumentDBBusiness
+		SccLocalPath1 = DocumentDBBusiness
+		SccProjectUniqueName2 = DocumentDBServices\\DocumentDBServices.csproj
+		SccProjectName2 = DocumentDBServices
+		SccLocalPath2 = DocumentDBServices
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98DA8942-6EEE-45B8-99EB-9F215273D983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DA8942-6EEE-45B8-99EB-9F215273D983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DA8942-6EEE-45B8-99EB-9F215273D983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DA8942-6EEE-45B8-99EB-9F215273D983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BD7312-9920-4122-A1DF-CF1798D5F956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BD7312-9920-4122-A1DF-CF1798D5F956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BD7312-9920-4122-A1DF-CF1798D5F956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BD7312-9920-4122-A1DF-CF1798D5F956}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E91C598-1615-492F-B3E7-35BDF8E30936} = {A92B7EB7-C6A9-4BF8-80E4-0D40B8B80FA7}
+	EndGlobalSection
+EndGlobal
